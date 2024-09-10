@@ -1257,6 +1257,15 @@ wheels = [
 ]
 
 [[package]]
+name = "pyusb"
+version = "1.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d9/6e/433a5614132576289b8643fe598dd5d51b16e130fd591564be952e15bb45/pyusb-1.2.1.tar.gz", hash = "sha256:a4cc7404a203144754164b8b40994e2849fde1cfff06b08492f12fff9d9de7b9", size = 75292 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/15/a8/4982498b2ab44d1fcd5c49f07ea3795eab01601dc143b009d333fcace3b9/pyusb-1.2.1-py3-none-any.whl", hash = "sha256:2b4c7cb86dbadf044dfb9d3a4ff69fd217013dbe78a792177a3feb172449ea36", size = 58439 },
+]
+
+[[package]]
 name = "pywin32"
 version = "306"
 source = { registry = "https://pypi.org/simple" }
@@ -1397,6 +1406,7 @@ dependencies = [
     { name = "llama-index-tools-code-interpreter" },
     { name = "nest-asyncio" },
     { name = "python-dotenv" },
+    { name = "pyusb" },
     { name = "requests" },
 ]
 
@@ -1404,10 +1414,11 @@ dependencies = [
 requires-dist = [
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "llama-index", specifier = ">=0.11.3" },
-    { name = "llama-index-llms-anthropic" },
+    { name = "llama-index-llms-anthropic", specifier = ">=0.3.0" },
     { name = "llama-index-tools-code-interpreter", specifier = ">=0.2.0" },
     { name = "nest-asyncio", specifier = ">=1.6.0" },
     { name = "python-dotenv", specifier = "==1.0.1" },
+    { name = "pyusb" },
     { name = "requests", specifier = ">=2.32.3" },
 ]
 
