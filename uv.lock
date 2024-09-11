@@ -787,6 +787,18 @@ wheels = [
 ]
 
 [[package]]
+name = "llama-index-packs-agents-coa"
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "llama-index-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/5b/e4/21643f436e1d65d5ee117c871e8117f2ee8b183a94f91c74adc076f3e98a/llama_index_packs_agents_coa-0.2.0.tar.gz", hash = "sha256:34df90aa45cb2d09f8e0ff316357d4f0141eb6a2b18657e5c0019b9672854d59", size = 8377 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/60/b5/9a54dba3a0c28f2994990fa2bd702c4cd40e4822fc8644745b4ff135cd6c/llama_index_packs_agents_coa-0.2.0-py3-none-any.whl", hash = "sha256:aefd52cac7712dd0afcfab5c664bb1340fd8033eb4e61bf3eb0261f309a41c1a", size = 9242 },
+]
+
+[[package]]
 name = "llama-index-program-openai"
 version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1403,6 +1415,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "llama-index" },
     { name = "llama-index-llms-anthropic" },
+    { name = "llama-index-packs-agents-coa" },
     { name = "llama-index-tools-code-interpreter" },
     { name = "nest-asyncio" },
     { name = "python-dotenv" },
@@ -1415,10 +1428,11 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "llama-index", specifier = ">=0.11.3" },
     { name = "llama-index-llms-anthropic", specifier = ">=0.3.0" },
+    { name = "llama-index-packs-agents-coa" },
     { name = "llama-index-tools-code-interpreter", specifier = ">=0.2.0" },
     { name = "nest-asyncio", specifier = ">=1.6.0" },
     { name = "python-dotenv", specifier = "==1.0.1" },
-    { name = "pyusb" },
+    { name = "pyusb", specifier = ">=1.2.1" },
     { name = "requests", specifier = ">=2.32.3" },
 ]
 

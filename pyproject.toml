@@ -13,6 +13,7 @@ dependencies = [
     "nest-asyncio>=1.6.0",
     "llama-index-llms-anthropic>=0.3.0",
     "pyusb>=1.2.1",
+    "llama-index-packs-agents-coa>=0.2.0",
 ]
 
 [build-system]
